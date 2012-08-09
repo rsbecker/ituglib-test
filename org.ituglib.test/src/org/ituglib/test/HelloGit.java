@@ -10,7 +10,7 @@
 package org.ituglib.test;
 
 /**
- * @author rsbecker
+ * @author Randall S. Becker
  *
  */
 public class HelloGit {
