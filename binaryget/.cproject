@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="nsdee.managedbuild.ccpp.config.tnse.alib.debug.1062173595">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="nsdee.managedbuild.ccpp.config.tnse.alib.debug.1062173595" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/binaryget"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/binaryget/Debug"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="binaryget"/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="com.hp.nsdee.devp.core.NONSTOP_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.hp.nsdee.devp.core.parsers.CParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib" cleanCommand="rm -rf" description="" id="nsdee.managedbuild.ccpp.config.tnse.alib.debug.1062173595" name="Debug" parent="nsdee.managedbuild.ccpp.config.tnse.alib.debug">
+					<folderInfo id="nsdee.managedbuild.ccpp.config.tnse.alib.debug.1062173595." name="/" resourcePath="">
+						<toolChain id="nsdee.managedbuild.toolchain.ccpp.tnse.alib.debug.1983651727" name="C-C++ TNS-E Tools" superClass="nsdee.managedbuild.toolchain.ccpp.tnse.alib.debug" unusedChildren="nsdee.managedbuild.ccpp.tool.cpp.linker.tnse.alib.debug;nsdee.managedbuild.ccpp.tool.cobol.compiler.sqlmp.tnse.alib.debug;nsdee.managedbuild.ccpp.tool.c.sqlmx.tnse.alib.debug;nsdee.managedbuild.ccpp.tool.cobol.compiler.tnse.alib.debug;nsdee.managedbuild.ccpp.tool.c.sqlmx.pre.tnse.alib.debug;nsdee.managedbuild.ccpp.tool.cpp.compiler.tnse.alib.debug;nsdee.managedbuild.ccpp.tool.c.sqlmp.tnse.alib.debug;nsdee.managedbuild.ccpp.tool.cobol.sqlmx.pre.tnse.alib.debug;nsdee.managedbuild.ccpp.tool.cobol.sqlmp.tnse.alib.debug;nsdee.managedbuild.ccpp.tool.tal.compiler.tnse.alib.debug;nsdee.managedbuild.ccpp.tool.c.linker.tnse.alib.debug;nsdee.managedbuild.ccpp.tool.cobol.sqlmx.tnse.alib.debug;nsdee.managedbuild.ccpp.tool.c.compiler.sqlmp.tnse.alib.debug">
+							<targetPlatform id="nsdee.managedbuild.ccpp.target.platform.alib.tnse.debug.913814859" isAbstract="false" name="Debug Platform" superClass="nsdee.managedbuild.ccpp.target.platform.alib.tnse.debug"/>
+							<builder buildPath="${workspace_loc:/binaryget/Debug}" customBuilderProperties="nsdee.compRoot.default=+[TNS/E H06.24] C:\\Program Files (x86)\\HP NonStop\\H06.24|nsdee.postDeployTarget=|nsdee.compRoot=+[TNS/E H06.24] C:\\Program Files (x86)\\HP NonStop\\H06.24|nsdee.deployUser=randall|nsdee.deployDest=/home/randall/binaryget|nsdee.setCompRootAndPath=true|nsdee.targetSystype=oss|nsdee.preDeployTarget=|nsdee.deployFileName=libget.a|nsdee.posixBin=C:\\cygwin\\bin|nsdee.deployTarget=deploy|nsdee.posixBin.default=C:\\cygwin\\bin|nsdee.deploySystem=itug-lib.xid.com|" id="nsdee.managedbuild.ccpp.target.builder.tnse.alib.debug.515123584" managedBuildOn="true" name="NonStop Make Builder.Debug" superClass="nsdee.managedbuild.ccpp.target.builder.tnse.alib.debug"/>
+							<tool id="nsdee.managedbuild.ccpp.tool.c.compiler.tnse.alib.debug.824262760" name="C Compiler (TNS/E)" superClass="nsdee.managedbuild.ccpp.tool.c.compiler.tnse.alib.debug">
+								<inputType id="nsdee.managedbuild.tool.c.compiler.input.5473120" superClass="nsdee.managedbuild.tool.c.compiler.input"/>
+							</tool>
+							<tool id="nsdee.managedbuild.ccpp.tool.deploy.tnse.alib.debug.1548809984" name="Deploy Tool" superClass="nsdee.managedbuild.ccpp.tool.deploy.tnse.alib.debug">
+								<option id="deploy.category.destination.config.555252663" superClass="deploy.category.destination.config" value="itug-lib.xid.com (randall)" valueType="string"/>
+								<option id="deploy.category.destination.directory.2007563276" superClass="deploy.category.destination.directory" value="/home/randall/binaryget" valueType="string"/>
+								<option id="deploy.category.misc.rfilename.1670334099" superClass="deploy.category.misc.rfilename" value="libget.a" valueType="string"/>
+							</tool>
+							<tool id="nsdee.managedbuild.ccpp.tool.archiver.tnse.alib.debug.1527143443" name="Archive Tool" superClass="nsdee.managedbuild.ccpp.tool.archiver.tnse.alib.debug"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="nsdee.managedbuild.ccpp.config.tnse.alib.release.1312742217">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="nsdee.managedbuild.ccpp.config.tnse.alib.release.1312742217" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/binaryget"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/binaryget/Release"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="binaryget"/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="com.hp.nsdee.devp.core.NONSTOP_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.hp.nsdee.devp.core.parsers.CParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib" cleanCommand="rm -rf" description="" id="nsdee.managedbuild.ccpp.config.tnse.alib.release.1312742217" name="Release" parent="nsdee.managedbuild.ccpp.config.tnse.alib.release">
+					<folderInfo id="nsdee.managedbuild.ccpp.config.tnse.alib.release.1312742217." name="/" resourcePath="">
+						<toolChain id="nsdee.managedbuild.toolchain.ccpp.tnse.alib.release.1629528209" name="C-C++ TNS-E Tools" superClass="nsdee.managedbuild.toolchain.ccpp.tnse.alib.release" unusedChildren="nsdee.managedbuild.ccpp.tool.cobol.sqlmx.tnse.alib.release;nsdee.managedbuild.ccpp.tool.cobol.sqlmx.pre.tnse.alib.release;nsdee.managedbuild.ccpp.tool.cpp.linker.tnse.alib.release;nsdee.managedbuild.ccpp.tool.c.sqlmx.tnse.alib.release;nsdee.managedbuild.ccpp.tool.tal.compiler.tnse.alib.release;nsdee.managedbuild.ccpp.tool.cobol.sqlmp.tnse.alib.release;nsdee.managedbuild.ccpp.tool.c.compiler.sqlmp.tnse.alib.release;nsdee.managedbuild.ccpp.tool.c.sqlmx.pre.tnse.alib.release;nsdee.managedbuild.ccpp.tool.c.linker.tnse.alib.release;nsdee.managedbuild.ccpp.tool.cobol.compiler.sqlmp.tnse.alib.release;nsdee.managedbuild.ccpp.tool.cobol.compiler.tnse.alib.release;nsdee.managedbuild.ccpp.tool.c.sqlmp.tnse.alib.release;nsdee.managedbuild.ccpp.tool.cpp.compiler.tnse.alib.release">
+							<targetPlatform id="nsdee.managedbuild.ccpp.target.platform.tnse.alib.release.884795091" isAbstract="false" name="Debug Platform" superClass="nsdee.managedbuild.ccpp.target.platform.tnse.alib.release"/>
+							<builder buildPath="${workspace_loc:/binaryget/Release}" customBuilderProperties="nsdee.compRoot.default=+[TNS/E H06.24] C:\\Program Files (x86)\\HP NonStop\\H06.24|nsdee.postDeployTarget=|nsdee.compRoot=+[TNS/E H06.24] C:\\Program Files (x86)\\HP NonStop\\H06.24|nsdee.deployUser=randall|nsdee.deployDest=/home/randall/binaryget|nsdee.setCompRootAndPath=true|nsdee.targetSystype=oss|nsdee.preDeployTarget=|nsdee.deployFileName=libget.a|nsdee.posixBin=C:\\cygwin\\bin|nsdee.deployTarget=deploy|nsdee.posixBin.default=C:\\cygwin\\bin|nsdee.deploySystem=itug-lib.xid.com|" id="nsdee.managedbuild.ccpp.target.builder.tnse.alib.release.185645920" managedBuildOn="true" name="NonStop Make Builder.Release" superClass="nsdee.managedbuild.ccpp.target.builder.tnse.alib.release"/>
+							<tool id="nsdee.managedbuild.ccpp.tool.c.compiler.tnse.alib.release.313629823" name="C Compiler (TNS/E)" superClass="nsdee.managedbuild.ccpp.tool.c.compiler.tnse.alib.release">
+								<option defaultValue="false" id="c.compiler.category.optdebug.debug.902864291" superClass="c.compiler.category.optdebug.debug" valueType="boolean"/>
+								<inputType id="nsdee.managedbuild.tool.c.compiler.input.25990820" superClass="nsdee.managedbuild.tool.c.compiler.input"/>
+							</tool>
+							<tool id="nsdee.managedbuild.ccpp.tool.deploy.tnse.alib.release.2077460066" name="Deploy Tool" superClass="nsdee.managedbuild.ccpp.tool.deploy.tnse.alib.release">
+								<option id="deploy.category.destination.config.475609814" superClass="deploy.category.destination.config" value="itug-lib.xid.com (randall)" valueType="string"/>
+								<option id="deploy.category.destination.directory.1488364086" superClass="deploy.category.destination.directory" value="/home/randall/binaryget" valueType="string"/>
+								<option id="deploy.category.misc.rfilename.707104209" superClass="deploy.category.misc.rfilename" value="libget.a" valueType="string"/>
+							</tool>
+							<tool id="nsdee.managedbuild.ccpp.tool.archiver.tnse.alib.release.165245274" name="Archive Tool" superClass="nsdee.managedbuild.ccpp.tool.archiver.tnse.alib.release"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="binaryget.nsdee.managedbuild.ccpp.target.alib.1632129590" name="NonStop Archive Library" projectType="nsdee.managedbuild.ccpp.target.alib"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+</cproject>
